@@ -5,8 +5,16 @@ public class App {
         System.out.println("uppgift 1");
     
         System.out.println("Välkommen till systembolaget!" + "\n");
-        System.out.println("Hur gammmal är du?");
 
+        System.out.print("Hur gammmal är du?");
+        int tal1 = tb.nextInt();
+
+        int tal2 = 18;
+
+        
+
+        
+        
 
     }
 }
