@@ -6,13 +6,17 @@ public class App {
     
         System.out.println("Välkommen till systembolaget!" + "\n");
 
+        int tal1 = 18;
         System.out.print("Hur gammmal är du?");
-        int tal1 = tb.nextInt();
+        int tal2 = tb.nextInt();
 
-        int tal2 = 18;
+        System.out.println("Du är välkommen att fortsätta att handla:" + (tal1==tal2) + "\n");
+
+        System.out.println("Tyvärr får du inte handla här än:" + (tal1<=tal2) + "\n");
+
+        System.out.println("Du är välkommen att fortsätta att handla:" + (tal1>=tal2) + "\n");
 
         
-
         
         
 
